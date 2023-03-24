@@ -10,12 +10,13 @@ public class CaseWebElements {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
-    @FindBy(css = "input[id='Email']")
+    @FindBy(xpath =" *[@id='Email']")
     public WebElement email;
     @FindBy(css = "input[id='Password']")
     public WebElement password;
-    @FindBy(css = "button[type='submit']")
-    public WebElement loginbutton;
+    @FindBy(css = "class=button-1 login-button")
+
+    public WebElement loginButton;
     @FindBy(xpath = "//h1[normalize-space()='Dashboard']")
     public WebElement Validation;
 
