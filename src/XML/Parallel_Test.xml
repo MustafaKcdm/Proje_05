@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MySuit" parallel="tests" thread-count="2">
     <test  name="Test1">
-        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="browserTipi" value="firefox"></parameter>
         <classes>
 
-         <class name="Case_01"></class>
+         <class name="Proje_5_POM"></class>
 
        </classes>
     </test>
